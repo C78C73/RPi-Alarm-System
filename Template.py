@@ -1,7 +1,3 @@
-# RPi-Alarm-System
-## This is a project to build an alarm system using Raspberry Pi's, sensors, and Python.
-
-```
 # Email sending when motion is detected by a sensor
 import smtplib
 from email.mime.text import MIMEText
@@ -45,4 +41,3 @@ def Main():
         SendEmailAlert()
 
 Main()
-```
